@@ -41,12 +41,11 @@ if(window.location.pathname == "/") {
             "method" : "DELETE"
         }
 
-        // if(confirm("You sure you wanna do this, dumbfuck?")) {
-            $.ajax(request).done(function(response){
-                console.log("student dead");
-                location.reload();
-            })
-        // }
+        $.ajax(request).done(function(response){
+            console.log("student dead");
+            location.reload();
+        })
+        
     })
 }
 
@@ -89,12 +88,11 @@ if(window.location.pathname == "/teachers") {
             "method" : "DELETE"
         }
 
-        // if(confirm("You sure you wanna do this, dumbfuck?")) {
-            $.ajax(request).done(function(response){
-                console.log("teacher dead");
-                location.reload();
-            })
-        // }
+        $.ajax(request).done(function(response){
+            console.log("teacher dead");
+            location.reload();
+        })
+        
     })
 }
 
@@ -169,12 +167,11 @@ if(window.location.pathname == "/courses") {
             "method" : "DELETE"
         }
 
-        // if(confirm("You sure you wanna do this, dumbfuck?")) {
-            $.ajax(request).done(function(response){
-                console.log("course dead");
-                location.reload();
-            })
-        // }
+        $.ajax(request).done(function(response){
+            console.log("course dead");
+            location.reload();
+        })
+    
     })
 }
 
@@ -190,12 +187,11 @@ if (window.location.href.indexOf("/open-course") > -1) {
             "method" : "DELETE"
         }
 
-        if(confirm("You sure you wanna do this, dumbfuck?")) {
-            $.ajax(request).done(function(response){
-                console.log("course dead");
-                location.reload();
-            })
-        }
+        $.ajax(request).done(function(response){
+            console.log("course dead");
+            location.reload();
+        })
+        
         location.reload();
     })
 }

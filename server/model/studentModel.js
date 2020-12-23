@@ -16,13 +16,7 @@ var studentSchema = new mongoose.Schema({
     batch: {
         type: String,
         required: true
-    },
-    coursesTaken: [
-        {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: "Course"
-        }
-    ]
+    }
 
 })
 
