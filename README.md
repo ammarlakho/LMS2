@@ -10,3 +10,6 @@
 </ul>
 
 
+<p>Source code available on this github repository. Cloning the github repo, and running the commmands "npm install" and "npm start" should launch the website locally(assuming node.js is installed on the machine). </p>
+<p>Website will be deployed soon.</p>
+
